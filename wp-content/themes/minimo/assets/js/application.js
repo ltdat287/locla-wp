@@ -15,7 +15,7 @@
 	});
 	
     // set default search text
-    $( "#searchform input[type='text']" ).attr( "placeholder", "Search..." );
+    $( "#searchform input[type='text']" ).attr( "placeholder", "Tìm kiếm..." );
     
     // set comment form placeholder text
     $( ".comment-form-author input" ).attr( "placeholder", $( ".comment-form-author label" ).text() );
@@ -51,10 +51,10 @@
     }); 
     
     // change related products title
-    $( ".woo-single .related.products h2" ).html( "May we also recommend" );
+    $( ".woo-single .related.products h2" ).html( "Sản phẩm liên quan" );
     
     // inject title into cart
-    $( ".shop_table thead" ).before( "<h2>Cart Contents</h2>" );
+    $( ".shop_table thead" ).before( "<h2>Giỏ hàng</h2>" );
     
     // add button class to various cart functions
     $( ".shipping-calculator-button, .woocommerce .edit, .woocommerce-message > a" ).addClass( "button" );
@@ -120,17 +120,17 @@
             message      : 'required'
         },
         messages : {
-            firstname    : 'Please tell us your First Name.',
-            lastname     : 'Please tell us your Last Name.',
+            firstname    : 'Hãy điền Họ của bạn',
+            lastname     : 'Hãy điền Tên của bạn',
             email : {
-                required : 'We need your email address to contact you.',
-                email    : 'Looks like you may have made a typo. Email format is hello@example.com'
+                required : 'Chúng tôi cần email để liên hệ với bạn',
+                email    : 'Không đúng định dạng email. Email phải có dạng hello@example.com'
             },
             phone : {
-                required : 'We need your phone number to contact you.',
-                digits   : 'Numbers only, no spaces please.'
+                required : 'Chúng tôi cần số điện thoại của bạn để liên hệ.',
+                digits   : 'Hãy điền số và không có khoảng trắng.'
             },
-            message      : 'Looks like you forget to say something.'
+            message      : 'Hình như bạn quên điều gì đó.'
         }
     });
 })(jQuery);
