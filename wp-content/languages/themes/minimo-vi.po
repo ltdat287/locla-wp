@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Minimo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Mon Nov 30 2015 23:34:50 GMT+0700 (SE Asia Standard Time)\n"
-"PO-Revision-Date: Mon Nov 30 2015 23:36:30 GMT+0700 (SE Asia Standard Time)\n"
-"Last-Translator: admin <lenhatdinh@gmail.com>\n"
+"PO-Revision-Date: Tue Dec 01 2015 14:52:58 GMT+0700 (ICT)\n"
+"Last-Translator: datga <ltdat5789@gmail.com>\n"
 "Language-Team: \n"
 "Language: Vietnamese\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -22,29 +22,20 @@ msgstr ""
 "X-Loco-Target-Locale: vi_VN\n"
 "X-Generator: Loco - https://localise.biz/"
 
-#: ../../themes/minimo/index.php:31 ../../themes/minimo/archive.php:31 ../..
-#: /themes/minimo/search.php:58 ../../themes/minimo/search.php:130
-msgid "read more..."
-msgstr "đọc thêm..."
-
 #: ../../themes/minimo/index.php:41 ../../themes/minimo/archive.php:41 ../..
-#: /themes/minimo/search.php:68 ../../themes/minimo/search.php:140
+#: themes/minimo/search.php:68 ../../themes/minimo/search.php:140
 msgid "This article is"
 msgstr ""
 
 #: ../../themes/minimo/index.php:41 ../../themes/minimo/archive.php:41 ../..
-#: /themes/minimo/search.php:68 ../../themes/minimo/search.php:140
+#: themes/minimo/search.php:68 ../../themes/minimo/search.php:140
 msgid "words long. It will take"
 msgstr ""
 
 #: ../../themes/minimo/index.php:41 ../../themes/minimo/archive.php:41 ../..
-#: /themes/minimo/search.php:68 ../../themes/minimo/search.php:140
+#: themes/minimo/search.php:68 ../../themes/minimo/search.php:140
 msgid "to read."
 msgstr ""
-
-#: ../../themes/minimo/index.php:49 ../../themes/minimo/archive.php:49
-msgid "Sorry, there are no articles he just yet, pop back soon!"
-msgstr "Xin lỗi, nội dung không có sẵn, vui lòng quay lại sau"
 
 #: ../../themes/minimo/sidebar.php:4
 msgid "Navigate"
@@ -58,23 +49,11 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../../themes/minimo/404.php:23
-msgid "Not Found, aka 404"
-msgstr "Trang không tồn tại"
-
 #: ../../themes/minimo/404.php:27
 msgid ""
 "It appears that you've lost your way, either through an outdated link or a "
 "typo on the page you were trying to reach."
-msgstr ""
-
-#: ../../themes/minimo/404.php:32
-msgid "Back Home"
-msgstr "Quay về trang chủ"
-
-#: ../../themes/minimo/search.php:17 ../../themes/minimo/search.php:81
-msgid "Search Results for "
-msgstr "Kết quả tìm kiếm cho"
+msgstr "Liên kết bị lỗi hoặc đường dẫn không tồn tại !"
 
 #: ../../themes/minimo/functions.php:108
 #, php-format
@@ -121,7 +100,7 @@ msgid "Older Posts &raquo;"
 msgstr ""
 
 #: ../../themes/minimo/functions/fn.customizer.php:32 ../..
-#: /themes/minimo/functions/fn.customizer.php:53
+#: themes/minimo/functions/fn.customizer.php:53
 msgid "Logo"
 msgstr ""
 
@@ -214,3 +193,24 @@ msgstr ""
 #. Author URI of the theme
 msgid "http://lovethemes.co"
 msgstr ""
+
+#: ../../themes/minimo/index.php:31 ../../themes/minimo/archive.php:31 ../..
+#: themes/minimo/search.php:58 ../../themes/minimo/search.php:130
+msgid "read more..."
+msgstr "đọc thêm..."
+
+#: ../../themes/minimo/index.php:49 ../../themes/minimo/archive.php:49
+msgid "Sorry, there are no articles he just yet, pop back soon!"
+msgstr "Xin lỗi, nội dung không có sẵn, vui lòng quay lại sau"
+
+#: ../../themes/minimo/404.php:23
+msgid "Not Found, aka 404"
+msgstr "Trang không tồn tại"
+
+#: ../../themes/minimo/404.php:32
+msgid "Back Home"
+msgstr "Quay về trang chủ"
+
+#: ../../themes/minimo/search.php:17 ../../themes/minimo/search.php:81
+msgid "Search Results for "
+msgstr "Kết quả tìm kiếm cho"
