@@ -22,6 +22,12 @@
 			            </nav>
 			            <!-- /footer navigation -->
 			            
+						<!-- address_footer -->
+						<div>
+							<?php footer_text() ?>
+						</div>
+						<!-- /address_footer -->
+
 			            <!-- grab social settings from theme options  -->
 		                <?php $social = get_option( 'lovethemes_social' ); if ( $social ) : get_template_part( 'inc/social' ); endif; ?>
 		                <!-- /social -->
